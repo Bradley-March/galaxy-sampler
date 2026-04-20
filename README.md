@@ -67,28 +67,28 @@ The core physics of the pipeline is encapsulated in a series of empirical relati
 
 1. SHMR (Moster et al. 2013):
 
-	$$
-	M_{\rm disc} = 2 N M_{\rm vir}\left[\left(\frac{M_{\rm vir}}{M_1}\right)^{-\beta} + \left(\frac{M_{\rm vir}}{M_1}\right)^{\gamma}\right]^{-1}
-	$$
+$$
+M_{\rm disc} = 2 N M_{\rm vir}\left[\left(\frac{M_{\rm vir}}{M_1}\right)^{-\beta} + \left(\frac{M_{\rm vir}}{M_1}\right)^{\gamma}\right]^{-1}
+$$
 
 1. Concentration-mass relation (Dutton and Maccio 2014):
 
-	$$
-	\log_{10} c_{\rm vir} = a + b\log_{10}\left(\frac{M_{\rm vir}}{10^{12} h^{-1} M_\odot}\right)
-	$$
+$$
+\log_{10} c_{\rm vir} = a + b\log_{10}\left(\frac{M_{\rm vir}}{10^{12} h^{-1} M_\odot}\right)
+$$
 
 3. Disc size-mass relation (Shen et al. 2003):
 
-	$$
-	R_{\rm hl} = \gamma M_{\rm disc}^{\alpha}\left(1 + \frac{M_{\rm disc}}{M_0}\right)^{\beta - \alpha}
-	$$
+$$
+R_{\rm hl} = \gamma M_{\rm disc}^{\alpha}\left(1 + \frac{M_{\rm disc}}{M_0}\right)^{\beta - \alpha}
+$$
 
 
 4. Disc oblateness (Bershady et al. 2010):
 
-	$$
-	\log_{10} q \equiv \log_{10}\left(\frac{R_{\rm disc}}{z_{\rm disc}}\right) = a + b \log_{10}\left(R_{\rm disc} / {\rm kpc}\right) 
-	$$
+$$
+\log_{10} q \equiv \log_{10}\left(\frac{R_{\rm disc}}{z_{\rm disc}}\right) = a + b \log_{10}\left(R_{\rm disc} / {\rm kpc}\right) 
+$$
 
 With values for the fitting parameters and intrinsic scatters taken from the original papers (full citation list in the bibliography section below). 
 
